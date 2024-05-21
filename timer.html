@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="alarmClock">
+  <p id="currentTime"> currentTime 
+    <div id="dis"><span id="hr">00</span><span>:</span><span id="min">0 0</span><span>:</span> <span id="sec">00</span></div>
+  </p>
+ </div>
+ <h1>Set Alarm Time</h1>
+ <div id="setalarmTime">
+<input type="number" id="Hour"  value=""  placeholder="Hour">
+<input type="number"  id="minute" value=""  placeholder="minute">
+<button id="setAlarmbtn" onclick="SetAlarm()" >Set Alarm</button>
+ </div>
+ <p id="setAlarm"> Alarm Time <span id="h">00</span><span>:</span><span id="m">00</span></p>
+<audio id="AudioPlay" src="mp3-sample.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

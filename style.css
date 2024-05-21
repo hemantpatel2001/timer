@@ -1,0 +1,39 @@
+
+
+#currentTime {
+    font-size: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+h1{
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+}
+#setalarmTime{
+    display: flex;
+    justify-content: center;
+    gap: 4PX;
+}
+input{
+   padding: 2px;
+
+}
+#setAlarmbtn{
+    background-color: rgb(53, 182, 233);
+    color: aliceblue;
+    font-size: 20px;
+}
+#setAlarm{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    font-size: 30px
+}
